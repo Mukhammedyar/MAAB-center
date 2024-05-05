@@ -1,0 +1,28 @@
+.input {
+  font-size: 10px;
+  padding: 5px 10px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.inputNumber {
+  font-size: 12px;
+  padding: 5px 10px;
+  display: flex;
+  width: auto;
+  align-items: center;
+  border-radius: 10px;
+}
+.input-white:focus,
+.inputNumber:focus {
+  outline: 0;
+  border: 1px solid orange;
+  box-shadow: none;
+}
+.input-white:hover,
+.inputNumber:hover {
+  outline: 0;
+  border: 1px solid orange;
+  box-shadow: none;
+}

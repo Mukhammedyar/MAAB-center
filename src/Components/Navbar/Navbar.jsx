@@ -23,8 +23,8 @@ function Navbar() {
             : <CloseIcon/>
           }
         </div>
+        {toggleMenu && <NavbarMobile/>}
       </div>
-      {toggleMenu && <NavbarMobile openAllCourses={openAllCourses} setOpenAllCourses={setOpenAllCourses} />}
     </div>
   )
 }

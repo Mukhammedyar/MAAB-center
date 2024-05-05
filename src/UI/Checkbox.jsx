@@ -1,7 +1,8 @@
+import { Switch } from 'antd'
 import React from 'react'
 
-export default function Checkbox() {
+export default function Checkbox({size}) {
   return (
-    <div>Checkbox</div>
+    <Switch defaultChecked size={size}/>
   )
 }

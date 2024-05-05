@@ -9,7 +9,7 @@ span:hover {
 
 .navItemMobile {
   border-bottom: 1px solid #eaeaea;
-  min-height: 50px;
+  min-height: 37px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +33,7 @@ span:hover {
   color: #ff691e;
 }
 .dropdownItemMobile {
-  height: 40px;
+  height: 35px;
   display: flex;
   align-items: center;
   width: 100%;

@@ -1,0 +1,14 @@
+.campus {
+  background-image: url(../../../public/maab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.bright {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  backdrop-filter: brightness(60%);
+}

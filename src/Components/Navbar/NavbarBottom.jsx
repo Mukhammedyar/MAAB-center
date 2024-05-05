@@ -1,5 +1,5 @@
 import logo from '../../../public/logo-site.png'
-import { styles } from '../../Styles/styles'
+import { buttons, styles } from '../../Styles/styles'
 import stylesModule from './styles.module.css'
 import Button from '../../UI/Button'
 import DownIcon from '../../UI/Icons/DownIcon'
@@ -22,8 +22,8 @@ export default function NavbarBottom({ setOpenAllCourses, openAllCourses }) {
       <div className="relative">
         <Button
           onClick={() => setOpenAllCourses(!openAllCourses)}
-          typeButton={styles.orangeButton}
-          className={`${styles.responsiveHidden} `}
+          typeButton={buttons.orangeButton}
+          className={`${styles.responsiveHidden} px-3`}
           >
           Barcha kurslar
           {!openAllCourses
@@ -66,7 +66,7 @@ export default function NavbarBottom({ setOpenAllCourses, openAllCourses }) {
       </div>
       <div className={`${styles.itemsCenter} gap-5 ${styles.responsiveHidden} `}>
         <p className={`text-orange-500 font-medium text-sm`}>+998 97 783 90 45</p>
-        <Button typeButton={styles.darkButton}>
+        <Button typeButton={buttons.darkButton}>
             {"Aloqada bo'ling"}
             <PhoneIcon/>
         </Button>
