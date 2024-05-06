@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <div className={`${stylesHeader.responsiveContainer}`}>
-            <div className="text-white rounded-3xl relative h-[90vh] overflow-hidden shadow-xl">
+            <div className="text-white rounded-3xl relative h-[85vh] md:h-[90vh] lg:h-[90vh] overflow-hidden shadow-xl">
                 <video src={video} autoPlay muted loop className="video object-cover w-full h-full" />
                 <div className={`absolute w-full ${stylesHeader.positionText}`}>
                     <h1 className={`${stylesHeader.responsiveHeader} header font-bold text-center`}>SIZGA ZARUR BO'LGAN BARCHA BILIM VA KO'NIKMALAR SHU YERDA!</h1>
