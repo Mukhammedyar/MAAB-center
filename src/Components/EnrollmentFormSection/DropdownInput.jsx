@@ -7,7 +7,7 @@ import Button from '../../UI/Button'
 
 export default function DropdownInput({openLevel}) {
   return (
-    <Dropdown className={`${openLevel ? "flex" : "hidden"} top-16 p-0 left-0 w-[350px] text-sm z-[2]`}>
+    <Dropdown className={`${openLevel ? "flex" : "hidden"} top-16 p-0 left-0 w-[270px] md:w-[350px] text-sm z-[2]`}>
         <div className='flex w-full justify-between'>
             <div className='border-r-[1px] border-r-gray-200 w-1/2 px-2'>
                 <p className='text-xs font-medium monsserat py-2'>IELTS darajangiz</p>
